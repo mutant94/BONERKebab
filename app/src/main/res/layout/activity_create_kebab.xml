@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_create_kebab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.targon.bonerkebab.CreateKebabActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sosy"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/sos1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ostry" />
+
+                    <CheckBox
+                        android:id="@+id/sos2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="czosnkowy" />
+
+                    <CheckBox
+                        android:id="@+id/sos3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ketchup" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/sos4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="majonez" />
+
+                    <CheckBox
+                        android:id="@+id/sos5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="musztarda" />
+
+                    <CheckBox
+                        android:id="@+id/sos6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="piecze 2 razy" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mięso"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/mieso1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="wieprz" />
+                        <RadioButton
+                            android:id="@+id/mieso2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="baraninka" />
+                        <RadioButton
+                            android:id="@+id/mieso3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="kurczak" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/mieso4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="vege(sojowe)" />
+                        <RadioButton
+                            android:id="@+id/mieso5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="falafel" />
+                    </LinearLayout>
+                </RadioGroup>
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="podwójne mięso"/>
+            </LinearLayout>
+            <!-- warzywa -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cebula"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/cebula1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bez" />
+                        <RadioButton
+                            android:id="@+id/cebula2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pojedyńcza" />
+                        <RadioButton
+                            android:id="@+id/cebula3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="podwójna" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="kapusta"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/kapusta1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bez" />
+                        <RadioButton
+                            android:id="@+id/kapusta2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pojedyńcza" />
+                        <RadioButton
+                            android:id="@+id/kapusta3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="podwójna" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="pomidor"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/pomidor1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bez" />
+                        <RadioButton
+                            android:id="@+id/pomidor2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pojedyńcza" />
+                        <RadioButton
+                            android:id="@+id/pomidor3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="podwójna" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="czosnek"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/czosnek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bez" />
+                        <RadioButton
+                            android:id="@+id/czosnek2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pojedyńcza" />
+                        <RadioButton
+                            android:id="@+id/czosnek3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="podwójna" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ogórek"/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/ogorek1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bez" />
+                        <RadioButton
+                            android:id="@+id/ogorek2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="pojedyńcza" />
+                        <RadioButton
+                            android:id="@+id/ogorek3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="podwójna" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dalej"
+                android:background="@android:color/transparent"
+                android:onClick="addLocalization"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
